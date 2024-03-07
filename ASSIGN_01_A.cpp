@@ -6,7 +6,6 @@ the following
 print and read Complex Numbers.       
 */
 
-
 #include<iostream>
 #include<iomanip>
 
@@ -77,6 +76,7 @@ int main()
 	{
 	
 	cout<<"Enter Your Choice\n1.Adition\n2.Multiplication\n3.Exit\n";
+	cout<<"\nEnter your choice:";
 	cin>>ch;
 	switch(ch)
 	{
