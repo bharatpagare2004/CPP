@@ -18,7 +18,7 @@ class student
 		void add_info()
 		{
 	                fstream fs;   //creating object of fstream class
-			fs.open("sample.txt",ios::app);   //opening file is append
+			fs.open("bharat.txt",ios::app);   //opening file is append
 			
 			if(!fs)  //checking whether file exist
 			cout<<"File Creation failed";
@@ -41,7 +41,7 @@ class student
 	void display()
 	{
 	    fstream fs;  //creating object of fstream class
-	    fs.open("sample.txt",ios::in); //opening file in input mode
+	    fs.open("bharat.txt",ios::in); //opening file in input mode
 	    if(!fs) // checking whether file exits
 	    cout<<"No Such file";
 	    else
