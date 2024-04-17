@@ -63,7 +63,11 @@ class student
            fs.close();//closing file
 	
         } 
+	
 	};
+
+
+	
 int main()
 {
 
@@ -88,7 +92,9 @@ int main()
 	        s1.display(); // display the info
 	        break;
 	       case 3:
-	        exit(0);// successful exit of programs
+		   exit(0);
+	        
+		 // successful exit of programs
 	    }
 	}while(ch!=3);  //end of while
 	
